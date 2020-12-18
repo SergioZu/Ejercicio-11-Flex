@@ -1,4 +1,47 @@
-body{
-    background-image: linear-gradient(30deg,blue,cyan);
+#container{
+    background-image: linear-gradient(30deg,blue,cyan);/*Color que le damos de fondo*/
+    display: flex; 
+    flex-wrap: wrap; 
+    padding-left: 410px;
+    padding-right: 410px;
+}
+
+h1{
+    background:rgb(90, 165, 4);
     text-align: center;
+    width: 90%;
+    padding: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+#padrediv{
+    background:cadetblue;
+    flex-direction: column;
+    min-height: 83vh;
+}
+
+div{
+    display: flex;
+    justify-items: end;
+    flex: 1;
+}
+
+p{
+    margin-left: 4%;
+}
+
+footer{
+    background-color: white;
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+    font-size: 180%;
+
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    align-self: flex-end;
 }
